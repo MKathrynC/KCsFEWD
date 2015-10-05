@@ -1,0 +1,198 @@
+
+html {
+ box-sizing: border-box;
+}
+
+#background{
+  background: url(../images/testimonial_bg.jpg);
+}
+
+*, *​:before, *:after {
+ box-sizing: inherit;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear{
+    overflow: auto;
+}
+body{
+  margin-left: 100px;
+  margin-right: 100px;
+  border: gray solid 5px;
+}
+h1, h2, h3{
+  font-family: inherit;
+  font-weight: 800;
+}
+
+p, li{
+	line-height: 1.33em;
+	max-width: 24em;
+	
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: black;
+  color: white;
+}
+
+div.wrapper{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+header {
+    font-size: 24px;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    height: 500px;
+    min-height: 300px;
+}
+header h1{
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+    margin-left: 60px;
+    margin-top: 60px; 
+}
+header h2{
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+.box{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: yellow;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+h3{
+  color: navy;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+header{ text-align: center; }
+header h1{
+	float: left;
+}
+
+header h2{
+	clear: left;
+}
+
+header a{
+	background: #f4f500;
+	padding: 0.5em 3em;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 15px;
+	color: black;
+	
+}
+
+.benefits{
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+	background-color: #f2f6f4;
+	color: #555;
+}
+
+.benefits h1{
+	font-size: 24px;
+	font-weight: 300;
+  color: navy;
+}
+
+.benefits li{
+	list-style-type: disc;
+	margin-left: 1.4em;
+	list-style-position: inside;
+  line-height: 3em;
+}
+
+h2{
+  background-size: cover;
+  font-size: 18px;
+  font-style:light italic;
+  color: white;
+  text-align: center;
+}
+
+section.quote{
+	background: url(../images/testimonial_bg.jpg);
+	color: white;
+  height: 300px;
+  text-align: center;
+}
+
+
+.call-to-action{
+	background: yellow;
+	text-align: center;	
+	padding: 1em;
+}
+
+.call-to-action a{
+	background: #001f4c;
+	padding: 0.5em 3em;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 15px;
+	color: white;
+}
+
+
+footer ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+}
+h3 span{
+display: inline-block;
+font-size: 44px;
+width: 250px;
+text-align: center;
+color: white;
+}
+h5{
+  background-color: yellow;
+  height: 100px;
+}
+h5 div{
+  display: inline-block;
+  background color: navy;
+}
+footer h1{
+  color: yellow;
+}
+footer{
+  text-align: center;
+  height: 100px;
+}
+
+}
+
+}
+
+
