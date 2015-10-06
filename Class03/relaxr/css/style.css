@@ -5,5 +5,116 @@ html {
  box-sizing: inherit;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear{
+    overflow: auto;
+}
+#container{
+  width: 100%;
+  margin: auto;
+  height: 1000px;
+}
+body{
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: open sans;
+}
+header {
+    color: #000;
+    line-height: 1.4;
+    font-family: sans-serif;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    height: 800px;
+    border: 1px solid black;
+    position: relative;
+}
+header h1{
+    font-weight:900;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: extra bold;
+    color: white;
+    margin-left: 60px;
+    margin-top: 60px; 
+}
+header h2{
+  font-weight: 600;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+.box{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: yellow;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+section{
+  height: 900px;
+}
+div{
+  background-color: #f0efef;  
+  margin: 10px;
+}
+h3{
+  color: navy;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.benefits{
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-left: 30px;
+}
+li{
+  margin-left: 60px;
+  line-height: 3em;
+  padding-bottom: 20px;
+}
+h2{
+  background-size: cover;
+  font-size: 18px;
+  font-style:light italic;
+  color: white;
+  text-align: center;
+  height: 300px;
+
+}
+.quote{
+  background: url(../images/testimonial_bg.jpg);
+}
+
+h3 span{
+display: inline block;
+font-size: 44px;
+width: 250px;
+text-align: center;
+color: white;
+}
+h5{
+  background-color: yellow;
+  height: 100px;
+}
+h5 div{
+  display: inline-block;
+  background color: navy;
+}
+
 
 
