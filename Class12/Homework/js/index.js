@@ -6,21 +6,9 @@ $(document).ready(function() {
 	function changeBackground(event){
 		event.preventDefault();
 		var userInput = $('#city-type').val();
-
-
-		
-
-
-		// if (UserInput=== 'nyc')  
-		// else	
+		$('body').removeAttr("class");
+		$('body').addClass(userInput);
 
 	}
-	if (UserInput === 'nyc') {
-		$('body').addClass('nyc')
-	;
 
-	if (UserInput === 'sf') {
-		$('body').addClass('sf')
-
-	};
 });
