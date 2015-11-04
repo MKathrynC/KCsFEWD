@@ -1,0 +1,34 @@
+Pseudo Code
+
+
+target_temperature = 78
+
+current_temperature = get_current_temperature
+
+if current_temperature < targert_temperature-5
+	turn_heater_on
+
+if current_temperature>= target_temperature
+	turn_heater_off
+
+
+if rock = hand_folded
+if paper = hand_flat
+if scissors = hold_two_fingers
+
+person = player_1
+person = player_2
+
+if player_1= rock + player_2 = scissors = 
+if rock+scissors = rock_win/scissors_lose
+
+if scissors+paper = scissors_win/rock_lose
+
+if paper+rock = paper_win/rock_lose
+
+if rock+rock = repeat
+if paper+paper = repeat
+if scissors+scissors = repeat
+
+
+
